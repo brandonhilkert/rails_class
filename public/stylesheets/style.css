@@ -1,0 +1,14 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  background: url('/images/class-blur.jpg') no-repeat;
+  background-size: cover;
+  background-position: top;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: -2px;
+  text-shadow: rgba(0, 0, 0, 0.0980392) 0px 2px 0px;
+}
