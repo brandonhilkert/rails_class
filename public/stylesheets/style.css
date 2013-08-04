@@ -9,20 +9,26 @@
 }
 
 body {
-  font-family: Ostrich, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: Alegreya, Georgia, serif;
   color: rgb(59, 59, 59);
-  font-size: 28px;
+  font-size: 22px;
   background-size: cover;
   background-position: top;
   text-align: center;
+
 }
 
+
 h1 {
-  font-family: Alegreya, Serif;
+  font-family: Alegreya, Georgia, serif;
   font-size: 86px;
   margin-top: 70px;
   letter-spacing: -2px;
 }
+
+@media screen and (max-width: 775px) { h1 { font-size: 72px; } }
+@media screen and (max-width: 650px) { h1 { font-size: 60px; } }
+@media screen and (max-width: 550px) { h1 { font-size: 45px; } }
 
 h3 {
   font-family: 'Ostrich Black', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -39,11 +45,15 @@ h4 {
   margin-top: 0;
 }
 
+@media screen and (max-width: 550px) { h3 { font-size: 45px; } h4 { font-size: 26px; }; }
+
 #mc_embed_signup {
   margin-bottom: 40px;
 }
 
 label {
+  font-family: Alegreya, Georgia, serif;
+  font-size: 22px;
   margin-bottom: 15px;
   display: inline-block;
 }
@@ -58,7 +68,6 @@ input[type="email"] {
   padding: 10px;
   height: 34px;
   font-family: inherit;
-  letter-spacing: 2px;
 }
 
 input[type="submit"] {
@@ -74,7 +83,22 @@ input[type="submit"] {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   font-family: inherit;
-  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px) {
+  label { font-size: 18px; }
+
+  input[type="email"] {
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  input[type="submit"] {
+    width: 320px;
+    margin-bottom: 10px;
+  }
 }
 
 .teachers {
@@ -85,6 +109,11 @@ input[type="submit"] {
 
 .teachers .profile {
   display: table-cell;
+  font-size: 16px;
+}
+
+.teachers .profile .job {
+  color: rgb(190, 190, 190);
 }
 
 .teachers .profile a {
@@ -103,4 +132,10 @@ input[type="submit"] {
 .teachers .profile a img {
   border-radius: 50%;
   border: 1px solid rgb(190, 190, 190);
+}
+
+@media screen and (max-width: 600px) {
+  .teachers {
+    width: 400px;
+  }
 }
