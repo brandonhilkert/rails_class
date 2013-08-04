@@ -12,12 +12,8 @@ body {
   font-family: Alegreya, Georgia, serif;
   color: rgb(59, 59, 59);
   font-size: 22px;
-  background-size: cover;
-  background-position: top;
   text-align: center;
-
 }
-
 
 h1 {
   font-family: Alegreya, Georgia, serif;
@@ -28,7 +24,7 @@ h1 {
 
 @media screen and (max-width: 775px) { h1 { font-size: 72px; } }
 @media screen and (max-width: 650px) { h1 { font-size: 60px; } }
-@media screen and (max-width: 550px) { h1 { font-size: 45px; } }
+@media screen and (max-width: 550px) { h1 { font-size: 45px; margin-top: 20px; } }
 
 h3 {
   font-family: 'Ostrich Black', 'Helvetica Neue', Helvetica, Arial, sans-serif;
