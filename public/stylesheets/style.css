@@ -79,6 +79,14 @@ input[type="submit"] {
   border-radius: 5px;
   -webkit-border-radius: 5px;
   font-family: inherit;
+  -webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	transition: all .4s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #348830;
 }
 
 @media screen and (max-width: 600px) {
