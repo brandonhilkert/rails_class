@@ -10,7 +10,7 @@
 
 body {
   font-family: Alegreya, Georgia, serif;
-  color: rgb(59, 59, 59);
+  color: white;
   font-size: 22px;
   text-align: center;
   background: url('/images/background.jpg') no-repeat center center fixed;
@@ -23,26 +23,39 @@ body {
 h1 {
   font-family: Alegreya, Georgia, serif;
   font-size: 64px;
-  margin-top: 70px;
+  margin: 70px 0 50px;
   letter-spacing: -2px;
 }
 
 @media screen and (max-width: 650px) { h1 { font-size: 60px; } }
 @media screen and (max-width: 550px) { h1 { font-size: 45px; margin-top: 20px; } }
 
+.class-info {
+  width: 600px;
+  margin: 20px auto 50px;
+  background-color: rgba(255, 2555, 255, 0.7);
+  border: 1px solid rgb(60, 60, 60);
+  padding: 30px;
+  border-radius: 3px;
+}
+
+@media screen and (max-width: 610px) { .class-info { width: 90%; padding: 10px; } }
+
 h3 {
   font-family: 'Ostrich Black', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: rgb(60, 60, 60);
   font-size: 64px;
   letter-spacing: 2px;
-  margin-bottom: 5px;
+  margin: 20px 0 5px;
 }
 
 h4 {
   font-family: Ostrich, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: rgb(190, 190, 190);
+  color: rgb(100, 100, 100);
   font-size: 36px;
   letter-spacing: 1px;
   margin-top: 0;
+  margin: 5px 0 20px;
 }
 
 @media screen and (max-width: 550px) { h3 { font-size: 45px; } h4 { font-size: 26px; }; }
