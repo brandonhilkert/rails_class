@@ -34,7 +34,6 @@ h1 {
   width: 600px;
   margin: 20px auto 50px;
   background-color: rgba(255, 2555, 255, 0.7);
-  border: 1px solid rgb(60, 60, 60);
   padding: 30px;
   border-radius: 3px;
 }
@@ -54,8 +53,7 @@ h4 {
   color: rgb(100, 100, 100);
   font-size: 36px;
   letter-spacing: 1px;
-  margin-top: 0;
-  margin: 5px 0 20px;
+  margin: 5px 0 30px;
 }
 
 @media screen and (max-width: 550px) { h3 { font-size: 45px; } h4 { font-size: 26px; }; }
@@ -66,9 +64,10 @@ h4 {
 
 label {
   font-family: Alegreya, Georgia, serif;
-  font-size: 22px;
-  margin-bottom: 15px;
+  font-size: 20px;
+  margin-bottom: 5px;
   display: inline-block;
+  color: #727272;
 }
 
 input[type="email"] {
